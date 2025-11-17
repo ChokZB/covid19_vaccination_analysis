@@ -40,5 +40,5 @@ matplotlibrc
 
 # Ignore future changes to data and image exports
 # (Files remain in repository from the first commit)
-data/
-images/
+# data/
+# images/
