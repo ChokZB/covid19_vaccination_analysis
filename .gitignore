@@ -1,0 +1,44 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Plotly and Matplotlib cache 
+.plotly/
+matplotlibrc
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Ignore future changes to data and image exports
+# (Files remain in repository from the first commit)
+# data/
+# images/
