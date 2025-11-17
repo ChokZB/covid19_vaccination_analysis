@@ -6,6 +6,7 @@
 
 A data-analysis project examining global COVID-19 vaccination progress through dataset cleaning, exploration, and visualisation.
 
+
 ---
 
 ## 🎯 Objectives
@@ -14,6 +15,7 @@ A data-analysis project examining global COVID-19 vaccination progress through d
 * Clean, validate, and transform raw vaccination data to enable reliable insights.
 * Produce visual representations that highlight coverage differences, rollout speed, and vaccine usage patterns.
 * Incorporate external socioeconomic information to uncover broader relationships and disparities.
+
 
 ---
 
@@ -46,6 +48,20 @@ The data contains the following information:
 | 14. | source_name                         | The source of the information.                                                                                         |
 | 15. | source_website                      | The website of the information source.                                                                                 |
 
+
+---
+
+## 📡 External Data Sources & APIs
+
+Additional contextual information is incorporated using two public APIs:
+
+* **World Bank Country API**: Supplies country income-level classifications (Low, Lower Middle, Upper Middle, High). These classifications are merged into the dataset using ISO country codes to support comparative socioeconomic analysis.
+
+* **REST Countries API**: Provides population figures for each country. A mapping layer is included to correct naming inconsistencies between the dataset and the API.
+
+These external datasets enhance the main vaccination data by enabling population-based grouping and income-level comparisons.
+
+
 ---
 
 ## 📁 Project Structure
@@ -72,6 +88,7 @@ covid19_vaccination_analysis/
 │
 └── requirements.txt                                    # Dependency list for reproducibility
 ```
+
 
 ---
 
@@ -108,6 +125,7 @@ covid19_vaccination_analysis/
 
     [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ChokZB/covid19_vaccination_analysis/blob/main/covid19_vaccination_analysis.ipynb)
 
+
 ---
 
 ## 📷 Visual Outputs
@@ -124,11 +142,16 @@ Some previews of visualisations produced during the analysis, exported from the 
 
 ## 📈 Results & Insights
 
-* Income-based comparisons show clear gaps in average vaccinations per hundred people, with higher-income economies consistently achieving far greater coverage than lower-income groups.
-* Population-based analysis indicates that smaller countries display the widest variation in vaccination rates, whereas medium and large population groups show narrower, more consistent distributions.
-* Scatter-plot findings suggest no strong linear link between the number of vaccine types used and national vaccination coverage.
-* Global daily vaccination trends peaked on 27 June 2021, reflecting intensified rollout efforts, phased distribution strategies, and dose-interval extensions adopted in many regions during mid-2021.
-* Vaccine-usage distribution highlights uneven global reliance on different vaccine brands, with some vaccines appearing far more frequently in the dataset.
+* Income-group comparisons, supported by classifications obtained from the World Bank API, reveal clear disparities in average vaccinations per hundred people, with higher-income economies consistently achieving substantially greater coverage than lower-income groups.
+
+* Population-based analysis, informed by population figures retrieved through the REST Countries API, shows that smaller countries exhibit the widest spread in vaccination rates, whereas medium and large population groups display more stable and clustered distributions.
+
+* Scatter-plot patterns indicate no strong linear association between the number of vaccine types administered and national vaccination coverage.
+
+* Global daily vaccination activity reached its highest point on 27 June 2021, reflecting intensified rollout phases, strategic dose-interval adjustments, and improved supply during mid-2021.
+
+* Vaccine-usage distributions highlight uneven reliance on specific vaccine brands, demonstrating varied national strategies and availability conditions across regions.
+
 
 ---
 
@@ -137,6 +160,7 @@ Some previews of visualisations produced during the analysis, exported from the 
 **Chok Zu Bing**
 
 GitHub: [@ChokZB](https://github.com/ChokZB)
+
 
 ---
 
