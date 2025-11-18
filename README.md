@@ -72,7 +72,7 @@ covid19_vaccination_analysis/
 ├── data/
 │   └── country_vaccinations.csv                        # Dataset
 │
-├── images/                                             # Folder for exported visualisations
+├── figures/                                             # Folder for exported visualisations
 │   ├── Top_10_Countries_by_Vaccination_Rate.png
 │   ├── Bottom_10_Countries_by_Vaccination_Rate.png
 │   ├── Global_Usage_of_Different_Vaccines.png
@@ -133,9 +133,9 @@ covid19_vaccination_analysis/
 Some previews of visualisations produced during the analysis, exported from the notebook for reference.
 
 
-![Top 10 Countries by Vaccination Rate](images/Top_10_Countries_by_Vaccination_Rate.png)
+![Top 10 Countries by Vaccination Rate](figures/Top_10_Countries_by_Vaccination_Rate.png)
 
-![Bottom 10 Countries by Vaccination Rate](images/Bottom_10_Countries_by_Vaccination_Rate.png)
+![Bottom 10 Countries by Vaccination Rate](figures/Bottom_10_Countries_by_Vaccination_Rate.png)
 
 
 ---
