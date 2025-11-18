@@ -72,7 +72,7 @@ covid19_vaccination_analysis/
 ├── data/
 │   └── country_vaccinations.csv                        # Dataset
 │
-├── figures/                                             # Folder for exported visualisations
+├── figures/                                            # Folder for exported visualisations
 │   ├── Top_10_Countries_by_Vaccination_Rate.png
 │   ├── Bottom_10_Countries_by_Vaccination_Rate.png
 │   ├── Global_Usage_of_Different_Vaccines.png
